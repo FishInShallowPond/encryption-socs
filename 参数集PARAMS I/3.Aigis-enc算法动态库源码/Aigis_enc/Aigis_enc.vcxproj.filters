@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Alg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cbd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fips202.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fips202x4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genmatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ntt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="owcpa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="poly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polyvec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="randombytes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reduce.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="verify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keccak4x\align.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keccak4x\brg_endian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keccak4x\KeccakP-1600-times4-SnP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keccak4x\SIMD256-config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keccak4x\sha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aes256ctr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Alg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cbd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fips202.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fips202x4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="genmatrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ntt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="owcpa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="poly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polyvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="randombytes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reduce.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keccak4x\KeccakP-1600-times4-SIMD256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keccak4x\sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keccak4x\sha512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aes256ctr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="keccak4x\sha_256.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="keccak4x\sha_512.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿  Assembling keccak4x\sha_256.asm...
+  Assembling keccak4x\sha_512.asm...
+  aes.c
+  aes256ctr.c
+  Alg.c
+  cbd.c
+  fips202.c
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\fips202.c(47): warning C4244: '=': conversion from 'uint64_t' to 'uint8_t', possible loss of data
+  fips202x4.c
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\fips202x4.c(25): warning C4244: '=': conversion from 'uint64_t' to 'uint8_t', possible loss of data
+  genmatrix.c
+  KeccakP-1600-times4-SIMD256.c
+  sha256.c
+  sha512.c
+  kem.c
+  ntt.c
+  owcpa.c
+  poly.c
+  polyvec.c
+  precomp.c
+  randombytes.c
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\rng.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\randombytes.c(11): warning C4244: 'return': conversion from 'puchar_byts_t' to 'int', possible loss of data
+  reduce.c
+  rng.c
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\rng.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\rng.c(81): warning C4013: 'sha3_384' undefined; assuming extern returning int
+  verify.c
+e:\aigis\aigis-enc算法提交版\aigi-enc算法提交\参数集params i\3.aigis-enc算法动态库源码\aigis_enc\verify.c(25): warning C4244: 'return': conversion from 'uint64_t' to 'int', possible loss of data
+     Creating library E:\Aigis\Aigis-enc算法提交版\Aigi-enc算法提交\参数集PARAMS I\3.Aigis-enc算法动态库源码\x64\Release\Alg.lib and object E:\Aigis\Aigis-enc算法提交版\Aigi-enc算法提交\参数集PARAMS I\3.Aigis-enc算法动态库源码\x64\Release\Alg.exp
+  Generating code
+  80 of 81 functions (98.8%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Aigis_enc.vcxproj -> E:\Aigis\Aigis-enc算法提交版\Aigi-enc算法提交\参数集PARAMS I\3.Aigis-enc算法动态库源码\x64\Release\Alg.dll
